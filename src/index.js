@@ -1,4 +1,4 @@
-import { analyzePassword } from "../basics/password.js";
+import { analyzePassword } from "./basics/password.js";
 
 export function start() {
   console.log("🚀 Super-Waddle ha iniciado correctamente");
@@ -23,3 +23,5 @@ export function start() {
     }
   }
 }
+
+start();
